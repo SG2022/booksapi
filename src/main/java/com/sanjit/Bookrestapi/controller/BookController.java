@@ -25,7 +25,7 @@ public class BookController {
 		return service.getBooksData();
 	}
 	
-	//post mapping
+	//post mapping api
 	@PostMapping("/post")
 	public Book postBooks(@RequestBody Book book)
 	{
